@@ -1,0 +1,115 @@
+Epoch: 1 [0], loss: 4.562, acc: 0.005
+Epoch: 1 [50], loss: 3.123, acc: 0.493
+Epoch: 1 [100], loss: 2.607, acc: 0.539
+Epoch: 1 [150], loss: 2.139, acc: 0.613
+Epoch: 1 [200], loss: 1.689, acc: 0.702
+Epoch: 1 [250], loss: 1.284, acc: 0.771
+Epoch: 1 [300], loss: 1.158, acc: 0.783
+Epoch: 1 [350], loss: 0.941, acc: 0.816
+Epoch: 1 [400], loss: 0.889, acc: 0.811
+Epoch: 1 [450], loss: 0.838, acc: 0.817
+Epoch: 1 [500], loss: 0.809, acc: 0.826
+Epoch: 1 [550], loss: 0.748, acc: 0.836
+Epoch: 1 [600], loss: 0.703, acc: 0.841
+Epoch: 1 [650], loss: 0.647, acc: 0.855
+Epoch: 1 [700], loss: 0.589, acc: 0.863
+Epoch: 1 [750], loss: 0.574, acc: 0.870
+Epoch: 1 [800], loss: 0.556, acc: 0.869
+Epoch: 1 [850], loss: 0.527, acc: 0.883
+Epoch: 1 [900], loss: 0.561, acc: 0.868
+End of epoch
+Saving current state of model to saved_weights\parser-epoch-1.mdl
+Evaluating on valudation data after epoch 1
+- validation UAS: 80.67
+Epoch: 2 [0], loss: 0.523, acc: 0.875
+Epoch: 2 [50], loss: 0.504, acc: 0.868
+Epoch: 2 [100], loss: 0.479, acc: 0.886
+Epoch: 2 [150], loss: 0.452, acc: 0.891
+Epoch: 2 [200], loss: 0.499, acc: 0.886
+Epoch: 2 [250], loss: 0.481, acc: 0.889
+Epoch: 2 [300], loss: 0.438, acc: 0.898
+Epoch: 2 [350], loss: 0.414, acc: 0.904
+Epoch: 2 [400], loss: 0.445, acc: 0.903
+Epoch: 2 [450], loss: 0.384, acc: 0.905
+Epoch: 2 [500], loss: 0.470, acc: 0.890
+Epoch: 2 [550], loss: 0.424, acc: 0.906
+Epoch: 2 [600], loss: 0.419, acc: 0.909
+Epoch: 2 [650], loss: 0.441, acc: 0.895
+Epoch: 2 [700], loss: 0.439, acc: 0.885
+Epoch: 2 [750], loss: 0.469, acc: 0.888
+Epoch: 2 [800], loss: 0.415, acc: 0.909
+Epoch: 2 [850], loss: 0.377, acc: 0.918
+Epoch: 2 [900], loss: 0.396, acc: 0.908
+End of epoch
+Saving current state of model to saved_weights\parser-epoch-2.mdl
+Evaluating on valudation data after epoch 2
+- validation UAS: 83.99
+Epoch: 3 [0], loss: 0.368, acc: 0.910
+Epoch: 3 [50], loss: 0.375, acc: 0.908
+Epoch: 3 [100], loss: 0.429, acc: 0.897
+Epoch: 3 [150], loss: 0.367, acc: 0.914
+Epoch: 3 [200], loss: 0.350, acc: 0.918
+Epoch: 3 [250], loss: 0.377, acc: 0.906
+Epoch: 3 [300], loss: 0.412, acc: 0.903
+Epoch: 3 [350], loss: 0.410, acc: 0.906
+Epoch: 3 [400], loss: 0.389, acc: 0.907
+Epoch: 3 [450], loss: 0.351, acc: 0.921
+Epoch: 3 [500], loss: 0.323, acc: 0.919
+Epoch: 3 [550], loss: 0.344, acc: 0.920
+Epoch: 3 [600], loss: 0.409, acc: 0.903
+Epoch: 3 [650], loss: 0.350, acc: 0.912
+Epoch: 3 [700], loss: 0.373, acc: 0.912
+Epoch: 3 [750], loss: 0.321, acc: 0.926
+Epoch: 3 [800], loss: 0.319, acc: 0.923
+Epoch: 3 [850], loss: 0.371, acc: 0.917
+Epoch: 3 [900], loss: 0.335, acc: 0.915
+End of epoch
+Saving current state of model to saved_weights\parser-epoch-3.mdl
+Evaluating on valudation data after epoch 3
+- validation UAS: 85.18
+Epoch: 4 [0], loss: 0.298, acc: 0.922
+Epoch: 4 [50], loss: 0.355, acc: 0.908
+Epoch: 4 [100], loss: 0.341, acc: 0.912
+Epoch: 4 [150], loss: 0.310, acc: 0.918
+Epoch: 4 [200], loss: 0.356, acc: 0.919
+Epoch: 4 [250], loss: 0.319, acc: 0.917
+Epoch: 4 [300], loss: 0.337, acc: 0.923
+Epoch: 4 [350], loss: 0.325, acc: 0.927
+Epoch: 4 [400], loss: 0.298, acc: 0.926
+Epoch: 4 [450], loss: 0.236, acc: 0.943
+Epoch: 4 [500], loss: 0.328, acc: 0.917
+Epoch: 4 [550], loss: 0.332, acc: 0.917
+Epoch: 4 [600], loss: 0.334, acc: 0.919
+Epoch: 4 [650], loss: 0.346, acc: 0.917
+Epoch: 4 [700], loss: 0.297, acc: 0.931
+Epoch: 4 [750], loss: 0.259, acc: 0.932
+Epoch: 4 [800], loss: 0.299, acc: 0.929
+Epoch: 4 [850], loss: 0.328, acc: 0.924
+Epoch: 4 [900], loss: 0.306, acc: 0.923
+End of epoch
+Saving current state of model to saved_weights\parser-epoch-4.mdl
+Evaluating on valudation data after epoch 4
+- validation UAS: 85.32
+Epoch: 5 [0], loss: 0.333, acc: 0.921
+Epoch: 5 [50], loss: 0.299, acc: 0.933
+Epoch: 5 [100], loss: 0.319, acc: 0.918
+Epoch: 5 [150], loss: 0.328, acc: 0.921
+Epoch: 5 [200], loss: 0.289, acc: 0.927
+Epoch: 5 [250], loss: 0.299, acc: 0.924
+Epoch: 5 [300], loss: 0.296, acc: 0.932
+Epoch: 5 [350], loss: 0.274, acc: 0.936
+Epoch: 5 [400], loss: 0.297, acc: 0.926
+Epoch: 5 [450], loss: 0.296, acc: 0.932
+Epoch: 5 [500], loss: 0.286, acc: 0.925
+Epoch: 5 [550], loss: 0.303, acc: 0.923
+Epoch: 5 [600], loss: 0.324, acc: 0.920
+Epoch: 5 [650], loss: 0.343, acc: 0.911
+Epoch: 5 [700], loss: 0.290, acc: 0.935
+Epoch: 5 [750], loss: 0.316, acc: 0.923
+Epoch: 5 [800], loss: 0.300, acc: 0.928
+Epoch: 5 [850], loss: 0.285, acc: 0.923
+Epoch: 5 [900], loss: 0.311, acc: 0.924
+End of epoch
+Saving current state of model to saved_weights\parser-epoch-5.mdl
+Evaluating on valudation data after epoch 5
+- validation UAS: 85.79

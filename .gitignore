@@ -1,0 +1,13 @@
+*.idea
+__pycache__
+*.ipynb_checkpoints
+*.png
+*.docx
+email-outputs*
+result*
+data
+saved_weights*
+*.wv
+wiki-bios.med.txt
+*.json*
+toxic_spans/
