@@ -2,7 +2,7 @@
 
 **Reference: Data and 2 of the 3 baselines come from https://github.com/ipavlopoulos/toxic_spans. The offensive word list baseline uses the word list from https://github.com/RobertJGabriel/Google-profanity-words**
 
-In addition, this project utilizes computing resources from the [Great Lakes Cluster][https://arc.umich.edu/greatlakes/] and the [Simple Transformers][https://simpletransformers.ai/] library.
+In addition, this project utilizes computing resources from the [Great Lakes Cluster](https://arc.umich.edu/greatlakes/) and the [Simple Transformers](https://simpletransformers.ai/) library.
 
 
 
