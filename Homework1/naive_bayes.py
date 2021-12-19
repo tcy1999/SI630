@@ -98,5 +98,7 @@ def main(func_token, plot_name, result_file):
     pred_df.to_csv(result_file, index=False)
 
 
-main(tokenize, 'plot_1_1.png', 'result_1_1.csv')
-main(better_tokenize, 'plot_1_2.png', 'result_1_2.csv')
+
+if __name__ == '__main__':
+    main(tokenize, 'plot_1_1.png', 'result_1_1.csv')
+    main(better_tokenize, 'plot_1_2.png', 'result_1_2.csv')

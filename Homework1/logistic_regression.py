@@ -3,23 +3,10 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 import re
-
-
-def tokenize(string):
-    str_split = string.split()
-    tokens = []
-    for each in str_split:
-        if re.search(r'(http[s]?://.*)|(.*www\..*)', each):
-            continue
-        each = re.sub(r'(er)|(est)|([^\w])$', '', each)
-        each = re.sub(r'^[^\w]', '', each)
-        tokens.append(each.lower())
-    return tokens
+from naive_bayes import better_tokenize
 
 
 def sigmoid(dot_prod):
-    # as we are doing stochastic gradient descent,
-    # it might be better that the sigmoid function is not vectorized
     return 1 / (1+np.exp(-dot_prod))
 
 
@@ -64,7 +51,7 @@ def predict(b, x):
 def extract_feature(training):
     vocabulary = set()
     for each in training:
-        tokens = tokenize(each)
+        tokens = better_tokenize(each)
         for token in tokens:
             if token not in vocabulary:
                 vocabulary.add(token)
@@ -74,7 +61,7 @@ def extract_feature(training):
 def preprocess(vocabulary, comments):
     X = np.zeros((len(comments), len(vocabulary)))
     for i in range(len(comments)):
-        tokens = tokenize(comments[i])
+        tokens = better_tokenize(comments[i])
         for token in tokens:
             if token in vocabulary:
                 X[i][vocabulary.index(token)] += 1
@@ -107,4 +94,5 @@ def main():
     pred_df.to_csv('result2.csv', index=False)
 
 
-main()
+if __name__ == '__main__':
+    main()
